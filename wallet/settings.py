@@ -38,14 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'asset_management',
+    'audit_trail',
     'api',
-     'depreciation',
-    'reevaluation',
-    'appreciation',
-    'transfer',
-    'acquisition',
-    'maintenance',
-    'disposal',
+    'sacco_management',
+    'user_management',
+    'auditlog',
 ]
 
 MIDDLEWARE = [
